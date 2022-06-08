@@ -30,6 +30,7 @@ $(document).ready(function(){
         $(this).find('a').toggleClass('minus');
 
         $(this).siblings().find('a').removeClass('blue');
+        $(this).siblings().find('a').removeClass('minus');
         $(this).siblings().find('p').slideUp();
 
     });
